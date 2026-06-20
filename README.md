@@ -4,7 +4,7 @@
 
 This project is an end-to-end Retail Analytics and Business Intelligence solution developed to analyze sales performance, inventory health, customer purchasing behavior, and product profitability across Decathlon's Racket Sports category.
 
-The project combines SQL, MySQL, Python, and Power BI to transform raw transactional data into actionable business insights for retail decision-making.
+The project combines MySQL, SQL, Python, and Power BI to transform raw transactional data into actionable business insights that support retail decision-making and inventory optimization.
 
 ---
 
@@ -68,7 +68,7 @@ The project combines SQL, MySQL, Python, and Power BI to transform raw transacti
 
 ### Database Name
 
-decathlon_racket_sports
+`decathlon_racket_sports`
 
 ### Tables
 
@@ -82,7 +82,7 @@ decathlon_racket_sports
 
 # SQL Analysis
 
-The project uses SQL for database management, data validation, and business analysis.
+The project uses SQL for database management, data preparation, validation, and business analysis.
 
 ### Analysis Performed
 
@@ -103,7 +103,7 @@ The project uses SQL for database management, data validation, and business anal
 - Data Loading
 - Joins
 - Aggregate Functions
-- Group By
+- GROUP BY
 - Subqueries
 - Business KPI Analysis
 
@@ -111,7 +111,7 @@ The project uses SQL for database management, data validation, and business anal
 
 # Power BI Dashboard
 
-The project dashboard consists of 5 interactive pages designed for business users and management teams.
+The solution includes a 5-page interactive dashboard designed for management reporting and business decision-making.
 
 ## Page 1: Home Dashboard
 
@@ -130,7 +130,7 @@ The project dashboard consists of 5 interactive pages designed for business user
 
 ## Page 3: Product Analysis
 
-- Product Performance
+- Product Performance Analysis
 - Revenue Contribution
 - Profitability Analysis
 - Category Comparison
@@ -146,7 +146,7 @@ The project dashboard consists of 5 interactive pages designed for business user
 ## Page 5: Inventory & Insights
 
 - Inventory Health Monitoring
-- Low Stock Products
+- Low Stock Identification
 - Reorder Analysis
 - Business Recommendations
 
@@ -169,23 +169,31 @@ The project dashboard consists of 5 interactive pages designed for business user
 
 # Dashboard Screenshots
 
-## Home Dashboard
+## 🏠 Home Dashboard
 
 ![Home Dashboard](Screenshots/Home.jpg)
 
-## Executive Analysis
+---
+
+## 📊 Executive Analysis
 
 ![Executive Analysis](Screenshots/Executive_Analysis.jpg)
 
-## Product Analysis
+---
+
+## 📦 Product Analysis
 
 ![Product Analysis](Screenshots/Product_Analysis.jpg)
 
-## Customer Analysis
+---
+
+## 👥 Customer Analysis
 
 ![Customer Analysis](Screenshots/Customer_Analysis.jpg)
 
-## Inventory & Insights
+---
+
+## 📈 Inventory & Insights
 
 ![Inventory Analysis](Screenshots/Inventory_Analysis.jpg)
 
@@ -193,13 +201,12 @@ The project dashboard consists of 5 interactive pages designed for business user
 
 # Key Business Insights
 
-- Identified high-performing products and categories.
-- Analyzed store-wise sales performance.
-- Monitored inventory health across stores.
-- Detected low stock products requiring replenishment.
-- Evaluated customer purchasing behaviour.
-- Measured profitability across product categories.
-- Supported data-driven retail decision making.
+- Identified top-performing products and categories across racket sports.
+- Evaluated store-wise sales performance and profitability.
+- Monitored inventory health and stock availability.
+- Detected low-stock products requiring replenishment.
+- Analyzed customer purchasing behavior and buying patterns.
+- Generated actionable insights for inventory planning and retail decision-making.
 
 ---
 
@@ -207,30 +214,55 @@ The project dashboard consists of 5 interactive pages designed for business user
 
 This solution helps retail managers:
 
-- Improve inventory planning.
-- Reduce stock shortages.
-- Track sales performance.
-- Optimize product assortment.
-- Improve profitability.
+- Improve inventory planning and replenishment.
+- Reduce stock shortages and stock-out risks.
+- Track sales and profitability performance.
+- Optimize product assortment strategies.
+- Improve operational efficiency.
 - Make data-driven business decisions.
 
 ---
 
 # Future Enhancements
 
-- Inventory Demand Forecasting
-- Machine Learning Sales Prediction
+- Inventory Demand Forecasting using Machine Learning
 - Automated Reorder Recommendation System
+- Sales Prediction Models
 - Customer Lifetime Value Analysis
 - Advanced Retail Analytics Dashboard
+- Real-Time Inventory Monitoring
+
+---
+
+# Repository Structure
+
+```text
+Decathlon-Racket-Sports-Analytics
+│
+├── Dataset
+├── SQL
+├── Python
+├── PowerBI
+├── Documentation
+├── Screenshots
+└── README.md
+```
 
 ---
 
 # Author
 
-### Bipasha Reddy
+## Bipasha Reddy
 
-M.Sc. Data Science | Data Analyst | Power BI Developer
+**M.Sc. Data Science | Data Analyst | Power BI Developer**
 
-Skills:
+### Skills
+
 SQL • MySQL • Python • Power BI • Excel • Data Visualization • Business Analytics
+
+---
+
+### Connect
+
+- LinkedIn: https://www.linkedin.com/in/bipasha-reddy-0205bredd/
+- GitHub: https://github.com/ItsBRedd
